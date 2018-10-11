@@ -1,0 +1,29 @@
+/*
+Color Pallete
+primary color:    #67d4c4
+Secondary color:  #67aed4
+Third Color:      #67d48e
+
+FONTS
+Headings: font-family: 'Mali', cursive;
+Bulk Text: font-family: 'Montserrat', sans-serif;
+All buttons and captions will use Bootstrap default fonts
+*/
+
+html{
+    background-color: #67d4c4;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+   font-family: 'Mali', cursive; 
+}
+
+p{
+   font-family: 'Montserrat', sans-serif; 
+}
+
+.jumbotron{
+    background-color: #67aed4;
+}
+
