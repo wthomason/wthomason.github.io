@@ -1,2 +1,56 @@
+#navigation {
+    position: fixed;
+    width: 100%;
+  }
+  
+  #landing {
+    background-image: url(../images/dean-pugh-710698-unsplash.jpg);
+    background-repeat: no-repeat;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: center;
+    overflow: hidden;
+  }
 
+  .above {
+    z-index: 1000; 
+  }
+    
+  .logo {
+    margin-top: 10rem;
+    font-size: 60px;
+    background-color: rgb(153, 153, 153, 0.7);
+    padding: 1rem;
+    border-radius: 8px;
+    
+    }
+
+    #about {
+        padding-top: 60px;
+        padding-bottom: 60px;
+      }
+      
+      #aboutImage{
+        background-image: url(../images/farzad-nazifi-71686-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        background-attachment: fixed;
+        height: 80vh;
+        width: 100%;
+        overflow: hidden;
+      }
+
+      #gallory {
+        padding-top: 60px;
+        padding-bottom: 60px;
+      }
 
