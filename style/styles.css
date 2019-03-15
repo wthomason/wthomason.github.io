@@ -2,7 +2,7 @@
     position: fixed;
     width: 100%;
   }
-  
+
   #landing {
     background-image: url(../images/dean-pugh-710698-unsplash.jpg);
     background-repeat: no-repeat;
@@ -21,23 +21,28 @@
   }
 
   .above {
-    z-index: 1000; 
+    z-index: 1000;
   }
-    
-  .logo {
-    margin-top: 10rem;
-    font-size: 60px;
+
+  .logoBackground{
     background-color: rgb(153, 153, 153, 0.7);
-    padding: 1rem;
     border-radius: 8px;
-    
+    margin-top: 10rem;
+    text-align: center;
+  }
+  .logo {
+
+    font-size: 60px;
+    padding: 1rem;
+
+
     }
 
     #about {
         padding-top: 60px;
         padding-bottom: 60px;
       }
-      
+
       #aboutImage{
         background-image: url(../images/farzad-nazifi-71686-unsplash.jpg);
         background-repeat: no-repeat;
@@ -52,5 +57,25 @@
       #gallory {
         padding-top: 60px;
         padding-bottom: 60px;
+      }
+
+      #contact {
+        padding-top: 60px;
+        padding-bottom: 60px;
+      }
+
+      #contactImage {
+        background-image: url(../images/joshua-aragon-1247600-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        background-attachment: fixed;
+        height: 80vh;
+        width: 100%;
+        overflow: hidden;
+      }
+
+      footer{
+        margin-bottom: 10px;
       }
 
