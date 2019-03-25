@@ -25,4 +25,3 @@ $( document ).ready(function() {
  /* ----------------script for typed.js end --------------------*/
 
 });
-
